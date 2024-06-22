@@ -1,0 +1,95 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Padding to fix margin-collapse and spacing issues */
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+/* Styling for the header */
+header h1 {
+    color: tomato;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav.main-nav {
+    justify-content: space-between;
+}
+
+nav.footer-nav {
+    justify-content: center;
+}
+
+/* Anchor styling */
+nav.main-nav a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+nav.footer-nav a {
+    color: tomato;
+    text-decoration: none;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+article h2 {
+    font-size: 1.5rem;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+article .read-more {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    color: tomato;
+    text-decoration: none;
+}
+
+article .date {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* Drop cap styling */
+article p::first-letter {
+    font-size: 2rem;
+    color: lightgray;
+}
+
+/* Footer styling */
+footer p {
+    text-align: center;
+    color: lightgray;
+}
