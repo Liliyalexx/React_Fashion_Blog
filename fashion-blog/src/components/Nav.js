@@ -5,17 +5,25 @@ function Nav() {
     <nav aria-label='Main Navigation' role='navigation'>
       <ul className='main-nav'>
         <li>
-          <a href='#'>Home</a>
+          <a href='#'>Mens's</a>
         </li>
         <li>
-          <a href='#'>About</a>
+          <a href='#'>On the Street</a>
         </li>
         <li>
-          <a href='#'>Contact</a>
+          <a href='#'>The Catwalk</a>
         </li>
+        <li>
+        <a href="#">AdWatch</a>
+        </li>
+          <li>
+          <a href="#">About</a>
+          </li>
       </ul>
     </nav>
   );
 }
 
 export default Nav;
+
+

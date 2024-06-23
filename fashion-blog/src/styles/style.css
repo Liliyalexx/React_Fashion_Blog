@@ -93,3 +93,36 @@ footer p {
     text-align: center;
     color: lightgray;
 }
+/* General styling for the container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Styling for the header */
+header {
+    padding: 1rem 0;
+}
+
+/* Styling for the navigation links */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin: 0 10px; /* Adjust margin to control space between items */
+}
+
+header nav ul li a {
+    text-decoration: underline; /* Add underline to the links */
+    color: grey; /* Set the text color to grey */
+    padding: 0 10px; /* Adjust padding to control space around words */
+}
+
+header nav ul li a:hover {
+    color: darkgrey; /* Optional: Change color on hover for better UX */
+}
